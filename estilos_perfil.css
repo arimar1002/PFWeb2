@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+#segundo{
+	color:#B849AF;
+}
+
+.titulosprofile{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.notas{
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+#contenedorprimario{
+width: 890px;
+height: 555px;
+margin-top: 30px;
+margin-left: 30px;
+	float: left;
+}
+
+#idcard{
+	width: 890px;
+	height: 555px;
+	background-color:aquamarine;
+	position: absolute;
+
+	border-radius: 65px;
+	box-shadow: 0px 0px 5px #9B9B9B;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease;
+	float: left;
+}
+
+#idfront{
+	position: absolute;
+	backface-visibility: hidden;
+	width: 890px;
+	height: 555px;	
+	border-radius: 65px;
+	background-image: url("imgs/idfront_pinkver.jpg")
+}
+
+#fotoid{
+	width: 345px;
+	height: 380px;
+    margin-top: 88px;
+    margin-left: 88px;
+    margin-right: 23px;
+    float: left;
+    box-shadow: 0px 0px 5px #B2A78B;
+}
+
+#textoidfront{
+	width: 372px;
+	height: 440px;
+	margin-top: 64px;
+	float: left;
+}
+
+#permamentlicense{
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+#idnumber{
+	font-size: 16px;
+	font-weight: 900;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+#datosidfront{
+	width: 100px;
+	height: 138px;
+    font-size: 15px;
+	font-weight: 700;
+    line-height: 35px;	
+	vertical-align: middle;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#respuestasid{
+	width: 270px;
+	height: 138px;
+    font-size: 30px;
+    line-height: 35px;	
+	vertical-align: middle;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#licensetext{
+	margin-top:10px; 
+	width: 360px;
+	height: 188px;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}
+
+#signature{
+		margin-top:10px; 
+	width: 360px;
+	height: 188px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: right;
+	vertical-align: middle;
+	float: left;
+	
+}
+
+#idback{
+	position: absolute;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+	width: 890px;
+	height: 555px;	
+	border-radius: 65px;
+	background-image: url("imgs/idback.jpg");
+	float: left;
+}
+
+#idcard:hover{
+	transform: rotateY(180deg)
+}
+
+#backcontent{
+	width: 750px;
+	height: auto;
+	margin-top: 120px;
+	margin-left: 70px;
+
+}
+
+#textoback{
+	font-size: 26px;
+	text-align: center;
+	font-weight: 900;
+	
+}
+
+#respuestaback{
+	margin-top: 20px; 
+	font-size: 36px;
+	text-align: center;
+
+}
+
+#contenedorsecundario{
+	width: 950px;
+	height:560px;
+	float: left;
+}
+
+#mapa{
+	width: 500px;
+	height: 500px;
+	margin-left: 30px;
+	margin-top: 30px;
+	float: left;
+	border-radius: 65px;
+	position: relative;
+}
+
+#educacion{
+	width: 370px;
+	height: 210px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #dfe7fd;
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+	border-radius: 30px;
+}
+
+#titulo1{
+	margin-top: 20px;
+	color:#45567c;
+}
+
+#notaedu{
+	margin-top: 10px;
+}
+
+#references{
+	width: 370px;
+	height: 170px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #f3f7ff;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+#titulo2{
+	margin-top: 20px;
+	color:#45567c;
+}
+
+#notaref{
+	margin-top: 10px;
+}
+
+

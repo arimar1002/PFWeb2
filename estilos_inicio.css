@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#primero{
+	color: #b849af;
+}
+
+#backgroundshape{
+	position: relative;
+	filter: drop-shadow(0px 3px 2px #9B9B9B);
+}
+
+#contenedor1 img{
+	position: fixed;
+	top: 204px;
+	right: 4px;
+	float: right;
+}
+
+#bienvenida{
+	width: 450px;
+	height: 240px;
+	position: fixed;
+	top: 300px;
+	left: 100px;
+	float: left;
+}
+
+.textogen{
+	font-size: 25px;
+}
+
+#hi{
+	color: #3025AF;
+}
+
+#aboutme{
+	margin-top: 80px;
+	text-align: center;
+	color: #4f8084;
+}
+
+#resena{
+
+	margin-left: 147.5px;
+	margin-bottom: 70px;
+	text-align: center;
+	width: 655px;
+	height: auto;
+}
+
+
+
+

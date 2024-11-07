@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+#cuarto{
+	color:#B849AF;
+}
+
+#galeria{
+	width: auto;
+	height: auto;
+	margin-left: 30px;
+	margin-top: 20px; 
+}
+
+#foto1{
+	float: left;
+	margin-right: 10px;
+
+}
+
+#foto2{
+	float: left;
+	margin-bottom: 10px;
+}
+
+#foto3{
+	float: left;
+	margin-right: 11px;
+	margin-bottom: 10px;	
+}
+
+#foto4{
+	float: left;
+	margin-bottom: 10px;	
+}
+
+#foto5{
+	position: fixed;
+	bottom: 56px;
+	float: left;
+}
+
+#foto6{
+	float: right;
+	margin-right: 30px;
+}
